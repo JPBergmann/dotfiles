@@ -1,0 +1,105 @@
+{
+  // VIM Tings
+
+  // General Stuff
+  // "editor.lineNumbers": "relative",
+  // PATH stuffs
+  "editor.bracketPairColorization.enabled": true,
+  "editor.rulers": [120],
+  // Data/Performance related Settings
+  "telemetry.telemetryLevel": "off",
+  "editor.fontSize": 14,
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.commandsToSkipShell": ["language-julia.interrupt"],
+  "julia.symbolCacheDownload": true,
+  "julia.enableTelemetry": false,
+  "workbench.startupEditor": "none",
+  "workbench.panel.defaultLocation": "bottom",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "editor.fontFamily": "Fira Mono 14",
+  "terminal.integrated.fontFamily": "monospace",
+  "editor.rename.enablePreview": false,
+  "quarto.mathjax.theme": "dark",
+  "quarto.render.renderOnSave": false,
+  "python.terminal.activateEnvironment": false,
+  // "python.envFile": "${workspaceFolder}/.python-version",
+  "python.terminal.activateEnvInCurrentTerminal": false,
+  //"python.analysis.autoImportCompletions": true,
+  "python.analysis.typeCheckingMode": "off",
+  "workbench.colorTheme": "Night Owl (No Italics)",
+  // "python.linting.pylintArgs": [
+  //     "--disable=C0114",
+  //     "--disable=missing-class-docstring",
+  //     "--disable=missing-function-docstring"
+  //],
+  "quarto.render.previewType": "external",
+  "r.lintr.enabled": false,
+
+  // Pylint stuff
+  // "pylint.severity": {
+  //     "convention": "Information",
+  //     "error": "Error",
+  //     "fatal": "Error",
+  //     "refactor": "Hint",
+  //     "warning": "Warning",
+  //     "info": "Information"
+  //},
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+
+  // Black formatter
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "black-formatter.args": ["--line-length", "120"],
+
+  // "python.formatting.blackArgs": ["--line-length", "100"],
+  // "python.linting.enabled": true,
+  // "python.formatting.provider": "none",
+
+  // Live Server
+  "liveServer.settings.AdvanceCustomBrowserCmdLine": "chrome",
+
+  // WebDev Stuff
+  "eslint.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit",
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.formatOnSave": false,
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#3a3d6c"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "explorer.confirmDelete": false,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.printWidth": 100,
+  "explorer.confirmDragAndDrop": false,
+  "editor.inlineSuggest.enabled": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "notebook.output.scrolling": true,
+  "jupyter.kernels.excludePythonEnvironments": [
+    "/usr/bin/python3"
+  ],
+  "editor.minimap.autohide": true,
+  "editor.minimap.renderCharacters": false,
+  "jupyter.askForKernelRestart": false,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": false,
+    "scminput": false
+  },
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": false,
+  "vim.startInInsertMode": true,
+  "window.zoomLevel": 1,
+  "vscode-pets.petSize": "large"
+}
